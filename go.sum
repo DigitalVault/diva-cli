@@ -2,6 +2,8 @@ github.com/DigitalVault/diva v0.0.0-20210120212211-d93aa42e2671 h1:nDcLWjJin6RII
 github.com/DigitalVault/diva v0.0.0-20210120212211-d93aa42e2671/go.mod h1:WDmnZ2b6TFqxVQVH7l2dvJPUI3MpSS9ASgqUDhO+F+c=
 github.com/DigitalVault/diva v0.0.1 h1:xLBwAE6vKrI2IKNV1ReOqAGa75FVHp+XrYm8mD4da9w=
 github.com/DigitalVault/diva v0.0.1/go.mod h1:WDmnZ2b6TFqxVQVH7l2dvJPUI3MpSS9ASgqUDhO+F+c=
+github.com/DigitalVault/diva v0.0.2 h1:w/XHTzw+4OIjKbwwagnf/buIBrOfWFEJnWJtqmvdr7E=
+github.com/DigitalVault/diva v0.0.2/go.mod h1:WDmnZ2b6TFqxVQVH7l2dvJPUI3MpSS9ASgqUDhO+F+c=
 github.com/alecthomas/kong v0.2.12 h1:X3kkCOXGUNzLmiu+nQtoxWqj4U2a39MpSJR3QdQXOwI=
 github.com/alecthomas/kong v0.2.12/go.mod h1:kQOmtJgV+Lb4aj+I2LEn40cbtawdWJ9Y8QLq+lElKxE=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
