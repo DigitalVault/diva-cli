@@ -10,7 +10,9 @@ LDFLAGS=-ldflags "-w -s -X main.Version=${VERSION} -X main.Build=${BUILD}"
 
 # Builds the project
 build:
-	go build ${LDFLAGS} -o ${BUILD_DIR}/${APP_NAME}
+	go build ${LDFLAGS} -o ${BUILD_DIR}/linux/${APP_NAME}
+	GOOS=darwin GOARCH=amd64 go build ${LDFLAGS} -o ${BUILD_DIR}/mac/${APP_NAME}
+	GOOS=windows GOARCH=amd64 go build ${LDFLAGS} -o ${BUILD_DIR}/win/${APP_NAME}.exe
 
 # Installs our project: copies binaries
 install:
@@ -18,6 +20,6 @@ install:
 
 # Cleans our project: deletes binaries
 clean:
-	if [ -f ${BUILD_DIR}/${APP_NAME} ] ; then rm ${BUILD_DIR}/${APP_NAME} ; fi
+	rm -rf ${BUILD_DIR}/
 
 .PHONY: clean install
