@@ -10,7 +10,7 @@ LDFLAGS=-ldflags "-w -s -X main.Version=${VERSION} -X main.Build=${BUILD}"
 
 # Builds the project
 build:
-	go build ${LDFLAGS} -o ${BUILD_DIR}/linux/${APP_NAME}-${VERSION}
+	GOOS=linux GOARCH=amd64 go build ${LDFLAGS} -o ${BUILD_DIR}/linux/${APP_NAME}-${VERSION}
 	GOOS=darwin GOARCH=amd64 go build ${LDFLAGS} -o ${BUILD_DIR}/mac/${APP_NAME}-${VERSION}
 	GOOS=windows GOARCH=amd64 go build ${LDFLAGS} -o ${BUILD_DIR}/win/${APP_NAME}-${VERSION}.exe
 
