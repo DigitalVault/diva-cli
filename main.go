@@ -4,6 +4,7 @@ import (
   "fmt"
   "github.com/alecthomas/kong"
   dCli "github.com/DigitalVault/diva/cli"
+  "runtime"
 )
 
 var (
@@ -34,7 +35,7 @@ func main() {
   case "ingest":
     fmt.Println("Ingest :", ctx.Args)
     case "version": {
-      fmt.Println("\r\nVersion          :", Version)
+      fmt.Printf("diva-cli (%s %s)\r\n\r\nVersion          : %s\r\n", runtime.GOOS, runtime.GOARCH, Version)
       fmt.Println("Build date       :", Build)
       fmt.Println("\r\nPackage versions :")
       dCli.Version()
