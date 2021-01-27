@@ -1,10 +1,13 @@
 package main
 
 import (
-  "fmt"
-  "github.com/alecthomas/kong"
-  dCli "github.com/DigitalVault/diva/cli"
-  "runtime"
+	"fmt"
+	"runtime"
+
+	dCli "github.com/DigitalVault/diva/cli"
+	"github.com/alecthomas/kong"
+  log "github.com/sirupsen/logrus"
+  // "github.com/DigitalVault/diva/core/info"
 )
 
 var (
@@ -39,6 +42,8 @@ func main() {
       fmt.Println("Build date       :", Build)
       fmt.Println("\r\nPackage versions :")
       dCli.Version()
+      log.Info("SysInfo")
+      // info.Info.Gather()
     }
   default:
     panic(ctx.Command())
