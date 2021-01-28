@@ -6,6 +6,10 @@ github.com/DigitalVault/diva v0.0.2 h1:w/XHTzw+4OIjKbwwagnf/buIBrOfWFEJnWJtqmvdr
 github.com/DigitalVault/diva v0.0.2/go.mod h1:WDmnZ2b6TFqxVQVH7l2dvJPUI3MpSS9ASgqUDhO+F+c=
 github.com/DigitalVault/diva v0.0.3 h1:bxqnzuitbLmVuJjdFP90bpRv3M1ax6L97JiuSpfQ8CI=
 github.com/DigitalVault/diva v0.0.3/go.mod h1:bCiRHi+Vc40wy6j2BPYL5nty0spn+AzMVS8szC1uCB4=
+github.com/DigitalVault/diva v0.0.4 h1:vSRIxNjzP4UkntepWhM9grOW+WivbmtQPRKyVa/SWto=
+github.com/DigitalVault/diva v0.0.4/go.mod h1:bCiRHi+Vc40wy6j2BPYL5nty0spn+AzMVS8szC1uCB4=
+github.com/DigitalVault/diva v0.0.5 h1:+pj2F25GYM0UDZOoSBJlIJMcgqY0GgN2qyQhDy0nlo0=
+github.com/DigitalVault/diva v0.0.5/go.mod h1:bCiRHi+Vc40wy6j2BPYL5nty0spn+AzMVS8szC1uCB4=
 github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d h1:G0m3OIz70MZUWq3EgK3CesDbo8upS2Vm9/P3FtgI+Jk=
 github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d/go.mod h1:3eOhrUMpNV+6aFIbp5/iudMxNCF27Vw2OZgy4xEx0Fg=
 github.com/alecthomas/kong v0.2.12 h1:X3kkCOXGUNzLmiu+nQtoxWqj4U2a39MpSJR3QdQXOwI=
@@ -34,5 +38,6 @@ golang.org/x/sys v0.0.0-20191026070338-33540a1f6037 h1:YyJpGZS1sBuBCzLAR1VEpK193
 golang.org/x/sys v0.0.0-20191026070338-33540a1f6037/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20201024232916-9f70ab9862d5 h1:iCaAy5bMeEvwANu3YnJfWwI0kWAGkEa2RXPdweI/ysk=
 golang.org/x/sys v0.0.0-20201024232916-9f70ab9862d5/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
