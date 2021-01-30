@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
-	"os"
+//	"os"
 	"runtime"
 
 	dCli "github.com/DigitalVault/diva/cli"
@@ -52,9 +52,9 @@ func main() {
 			fmt.Println("Build date       :", Build)
 			fmt.Println("\r\nPackage versions :")
 			dCli.Version()
-			log.SetOutput(os.Stdout)
-			log.SetLevel(log.DebugLevel)
-			log.Info("SysInfo")
+//			log.SetOutput(os.Stdout)
+//			log.SetLevel(log.DebugLevel)
+//			log.Info("SysInfo")
 			info.Info.SysInfo()
 		}
 	default:

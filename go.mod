@@ -1,6 +1,7 @@
 module github.com/DigitalVault/diva-cli
 
 go 1.15
+replace github.com/DigitalVault/diva => ../diva
 
 require (
 	github.com/DigitalVault/diva v0.0.5
